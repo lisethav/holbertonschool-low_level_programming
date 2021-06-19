@@ -1,8 +1,10 @@
 #include<stdio.h>
-/**main - Print to a,b,c... with push
+/**
+ * main - Print the abc.. with putchar
  *
  * Return: This is the end
-*/
+ */
+
 int main(void)
 {
 	int abc = 97;
