@@ -6,9 +6,9 @@
   */
 int main(void)
 {
-	int comb = 0;
+	int comb = 9;
 
-	while (comb <= 9)
+	while (comb >= 0)
 	{
 		putchar(comb);
 
