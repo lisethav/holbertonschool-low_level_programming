@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdlib>
 #include <time.h>
 #include <stdio.h>
 /**
@@ -8,21 +8,22 @@
  */
 int main(void)
 {
-	int n, y;
+	int n, tlast;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	tlast = n % 10;
 	if (n > 5)
 	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, y);
+		printf("Last digit of %d is %d and is greater than 5\n", n, tlast);
 	}
-	else if (0 == 0)
+	else if (n == 0)
 	{
-		printf("Last digit of %d is %d and is 0\n", n, y);
+		printf("Last digit of %d is %d and is 0\n", n, tlast);
 	}
 	else
 	{
-		printf("Last digit of %d is %d and is less than 6 adn not 0\n", n, y);
+		printf("Last digit of %d is %d and is less than 6 adn not 0\n", n, tlast);
 	}
 	return (0);
 }
