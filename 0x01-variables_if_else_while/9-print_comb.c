@@ -17,7 +17,7 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
-		comb++
+		comb++;
 	}
 	putchar('\n');
 	return (0);
