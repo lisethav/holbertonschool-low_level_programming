@@ -3,18 +3,16 @@
 #include <time.h>
 
 /**
- * main - The number is positive, negative or zero.
+ * main - the number is positive, negative or zero.
  *
- * Return: The end to 0
+ * Return: the end to 0
  */
-
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
