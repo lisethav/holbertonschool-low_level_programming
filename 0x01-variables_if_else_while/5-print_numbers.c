@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main - Print the abc.. with putchar and exclude
+ * main - Print the numbers
  *
  * Return: This is the end
  */
