@@ -7,12 +7,18 @@
 
 int main(void)
 {
-	int abc = 122;
+	int b16 = 48;
+	int b162 = 97;
 
-	while (abc <= 97)
+	while (b16 <= 57)
 	{
-		putchar(abc);
+		putchar(b16);
 		abc++;
+	}
+	while (b162 <= 102)
+	{
+		putchar(b162);
+		b162++;
 	}
 	putchar('\n');
 	return (0);
