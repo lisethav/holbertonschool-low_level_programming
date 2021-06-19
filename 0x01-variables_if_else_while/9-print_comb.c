@@ -8,7 +8,7 @@ int main(void)
 {
 	int comb = 0;
 
-	for (comb <= 9)
+	while (comb <= 9)
 	{
 		putchar(comb);
 
