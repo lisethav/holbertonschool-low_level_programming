@@ -13,8 +13,8 @@ int main(void)
 	while (b16 <= 57)
 	{
 		putchar(b16);
-		abc++;
-	}
+		b16++;
+}
 	while (b162 <= 102)
 	{
 		putchar(b162);
