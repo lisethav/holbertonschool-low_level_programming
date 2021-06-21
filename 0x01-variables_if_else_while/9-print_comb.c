@@ -6,17 +6,18 @@
   */
 int main(void)
 {
-	int comb = 0;
+	int comb = 48;
 
-	while (comb <= 9)
+	while (comb <= 57)
 	{
 		putchar(comb);
 
-		if (comb != 9)
+		if (comb != 57)
 		{
 			putchar(',');
 			putchar(' ');
 		}
+		comb++;
 	}
 	putchar('\n');
 	return (0);
