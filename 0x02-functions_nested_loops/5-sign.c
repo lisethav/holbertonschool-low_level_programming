@@ -3,6 +3,8 @@
 /**
  * print_sign -  Return to 1 o return 0 and return to -1
  *
+ * @n: is variable
+ *
  * Return: 0 or 1
  */
 
