@@ -3,7 +3,7 @@
 /**
  * _islower -  Return to 0 o return 1
  *
- *@c is variable
+ *@c: is variable
  * Return: 0 or 1
  */
 
