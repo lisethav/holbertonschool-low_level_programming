@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * main - Print the abc.. with putchar
+ * print_alphabet - Print the abc...
  *
  * Return: Void
  */
