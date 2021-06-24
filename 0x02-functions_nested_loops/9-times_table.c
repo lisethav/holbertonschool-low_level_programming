@@ -12,10 +12,10 @@ void times_table(void)
 	{
 		for (b = 0; b <= 9; b++)
 		{
-			linend = a * b;
+			linend = a * b; 
 
-			last = ((linend) % 10);
-			first = ((linend - first) / 10);
+			last = (linend % 10);
+			first = (linend / 10);
 
 			if (first == 0 && b > 0)
 			{
