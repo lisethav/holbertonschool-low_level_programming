@@ -16,7 +16,7 @@ void times_table(void)
 
 			last = ((linend) % 10);
 			first = ((linend - first) / 10);
-			
+
 			if (first == 0 && b > 0)
 			{
 				_putchar(' ');
