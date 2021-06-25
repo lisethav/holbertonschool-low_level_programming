@@ -1,18 +1,19 @@
 #include "holberton.h"
 
 /**
- * _issuper - is C o c
+ * _isupper - is C o c
  *
+ * @c: its variable
  * Return: the end
  */
-int _issuper(int c)
+int _isupper(int c)
 {
-	if (c == 'C')
-    {
-        return(1);
-    }
-    else
-    {
-        return(0);
-    }
+	if (c >= 65 && c <= 90)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
