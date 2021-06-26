@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * print_line - print to line
+ * print_diagonal - print to line
  *
  * @n: variable
  * Return: the end
@@ -9,14 +9,14 @@ void print_diagonal(int n)
 {
 	int a, b;
 
-	 if (n <= '0')
-		 _putchar('\n');
-	 for (a = 0; a < n; a++)
-	 {
-		 for (b = 0; b < a; b++)
-			 _putchar(32);
-	 }
-	 _putchar(92);
-	 _putchar('\n');
+	if (n <= '0')
+		_putchar('\n');
+	for (a = 0; a < n; a++)
+	{
+		for (b = 0; b < a; b++)
+			_putchar(32);
+	}
+	_putchar(92);
+	_putchar('\n');
 
 }
