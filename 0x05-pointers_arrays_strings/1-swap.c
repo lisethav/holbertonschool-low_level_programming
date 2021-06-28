@@ -3,7 +3,8 @@
 /**
  * void swap_int - print to 98
  *
- * @n: variable
+ * @a: variable 1
+ * @b: variable 2
  * Return: the end.
  */
 
