@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include "holberton.h"
 /**
- * reset_to_98 - print to 98
+ * void swap_int - print to 98
  *
  * @n: variable
  * Return: the end.
  */
 
-void reset_to_98(int *n)
+void swap_int(int *a, int *b)
 {
 	*a = 42;
 	*b = 98;
