@@ -3,7 +3,7 @@
  * _puts - print to cadena
  *
  * @str: pointer
- * Return: a non-negative integer or EOF.
+ * Return: a non-negative integer
  */
 void _puts(char *str)
 {
