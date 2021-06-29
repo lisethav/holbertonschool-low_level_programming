@@ -1,5 +1,5 @@
 #include "holberton.h"
-/*
+/**
  * _strlen - counts the number of characters.
  *
  * @*s: pointer
