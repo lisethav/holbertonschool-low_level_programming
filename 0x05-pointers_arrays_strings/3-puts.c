@@ -11,7 +11,7 @@ void _puts(char *str)
 
 	c = 0;
 
-	while ((c) = *str++)
+	while (c = (*str++))
 	{
 		_putchar(c);
 	}
