@@ -2,7 +2,7 @@
 /**
  * _strlen - counts the number of characters.
  *
- * @*s: pointer
+ * @s: pointer
  * Return: the counter
  */
 
