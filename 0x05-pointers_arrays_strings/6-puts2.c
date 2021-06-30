@@ -18,6 +18,6 @@ void puts2(char *str)
 			putchar(str[c]);
 		}
 		c++;
-		}
+	}
 	putchar('\n');
 }
