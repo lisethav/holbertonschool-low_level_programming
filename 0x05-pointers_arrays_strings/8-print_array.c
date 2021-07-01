@@ -11,6 +11,8 @@ void print_array(int *a, int n)
 {
 	int c = 0;
 
+	if (n > 0)
+	{
 	while (c != n)
 	{
 		printf("%d", a[c]);
@@ -19,4 +21,5 @@ void print_array(int *a, int n)
 		c++;
 	}
 	printf("\n");
+	}
 }
