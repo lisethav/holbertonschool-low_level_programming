@@ -2,9 +2,9 @@
 /**
  * _strncat - concatenates two strings
  *
- * @dest: pointer 
- * @src: pointer 
- * @n: number 
+ * @dest: pointer
+ * @src: pointer
+ * @n: number
  * Return: pointer to the resulting string dest
  */
 
