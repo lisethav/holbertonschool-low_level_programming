@@ -7,16 +7,16 @@
  * Return: NULL o *s
  */
 
-char *_strchr(char *s, char c)
+char *_strstr(char *haystack, char *needle)
 {
-	while (*s != c)
+	while (*haystack != *needle)
 	{
-		if (!*s++)
+		if (!*haystack++)
 		{
 			return (NULL);
 		}
 	}
-	return ((char *)s);
+	return ((char *)haystack);
 }
 /*
  * Option two or code
