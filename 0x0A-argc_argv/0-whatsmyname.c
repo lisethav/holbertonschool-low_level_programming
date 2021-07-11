@@ -5,7 +5,7 @@
  * @argv: stands for argument values
  * Return: the end
  */
-main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 
