@@ -8,12 +8,9 @@
  */
 int main(int argc, char *argv[])
 {
-	int mult;
-	
 	if (argc == 3)
 	{
-		mult = atoi(argv[1]) * atoi(argv[2]);
-		printf("%d\n", mult);
+		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 		return (0);
 	}
 	else
