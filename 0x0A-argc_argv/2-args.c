@@ -11,8 +11,6 @@ int main(int argc, char *argv[] char *envp[])
 
 	for (i = 0; i < argc; i++)
 		printf("argumento[%d]: %s\n", i, argv[i]);
-	while (*envp)
-		printf("%s\n", *envp++);
 	return (0);
 }
 
