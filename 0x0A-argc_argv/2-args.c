@@ -5,14 +5,13 @@
  * @argv: stands for argument values
  * Return: the end
  */
-int main(int argc, char *argv[] char *envp[])
+int main(int argc, char *argv[])
 {
 	int i;
 
 	for (i = 0; i < argc; i++)
-		printf("%s\n", i, argv[i]);
-	while (*envp)
-		printf("%s\n", *envp++);
+		printf("%s%s", argv[i], (i < (argc - 1)) ? " " : "");
+	printf("\n");
 	return (0);
 }
 
