@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - program that multiplies two numbers
  * @argc: stands for argument count
  * @argv: stands for argument values
- * Return: multiplies o Error
+ * Return: 0 its ok, 1 its error
  */
 int main(int argc, char *argv[])
 {
@@ -13,8 +14,6 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 	else
-	{
-	printf("Error\n");
-	}
+		printf("Error\n");
 	return (1);
 }
