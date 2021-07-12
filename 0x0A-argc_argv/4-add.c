@@ -10,11 +10,10 @@ int main(int argc, char *argv[])
 {
 	int i;
 	int sum = 0;
-	char c;
 
 	for (i = 1; i < argc; i++)
 	{
-		if ((argv[i]) == c)
+		if (!(argv[i]))
 		{
 			printf("Error\n");
 			return (1);
