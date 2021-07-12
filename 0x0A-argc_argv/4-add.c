@@ -8,12 +8,12 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, 
+	int i; 
 	int sum = 0;
 
 	for (i = 1; i < argc; i++)
 	{
-		if (!atoi(argv[i]))
+		if (!atoi(argv[i])) /* non numeric */
 		{
 			printf("Error\n");
 			return (1);
