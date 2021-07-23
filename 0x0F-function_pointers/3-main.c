@@ -18,5 +18,5 @@ int main(int argc, char *argv[])
 	int b = atoi(argv[3]);
 
 	printf("%d\n", get_op_func(operator)(a, b));
-	return(0);
+	return (0);
 }
