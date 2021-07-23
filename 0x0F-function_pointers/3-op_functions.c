@@ -15,8 +15,8 @@ int op_add(int a, int b)
 /**
  * op_add - Op to add two integer
  *
- * @a: number to add
- * @b: number to add
+ * @a: number to rest
+ * @b: number to rest
  * Return: integer with result
  */
 int op_sub(int a, int b)
@@ -27,8 +27,8 @@ int op_sub(int a, int b)
 /**
  * op_add - Op to add two integer
  *
- * @a: number to add
- * @b: number to add
+ * @a: number to mult
+ * @b: number to mult
  * Return: integer with result
  */
 int op_mul(int a, int b)
@@ -39,8 +39,8 @@ int op_mul(int a, int b)
 /**
  * op_add - Op to add two integer
  *
- * @a: number to add
- * @b: number to add
+ * @a: number to div
+ * @b: number to div
  * Return: integer with result
  */
 int op_div(int a, int b)
@@ -56,8 +56,8 @@ int op_div(int a, int b)
 /**
  * op_add - Op to add two integer
  *
- * @a: number to add
- * @b: number to add
+ * @a: number to mod
+ * @b: number to mod
  * Return: integer with result
  */
 int op_mod(int a, int b)
