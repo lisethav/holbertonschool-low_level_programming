@@ -22,6 +22,12 @@ int main(int argc, char *argv[])
 	a = atoi(argv[1]);
 	b = atoi(argv[3]);
 	
+	if (operator[1] != '\0')
+	{
+		printf("Error\n");
+		exit(99);
+	}
+	
 	printf("%d\n", get_op_func(operator)(a, b));
 	return (0);
 }
