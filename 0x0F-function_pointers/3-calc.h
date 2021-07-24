@@ -3,7 +3,14 @@
 /* LIBRARIES */
 #include <stdlib.h>
 #include <stdio.h>
+
 /* ESTRUCTURES */
+/**
+ * struct op - struct to fuction
+ *
+ * @op: the operator
+ * @f: fuction we call
+ */
 typedef struct op
 {
 	char *op;
