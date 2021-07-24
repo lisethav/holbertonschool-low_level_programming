@@ -22,9 +22,9 @@ int (*get_op_func(char *s))(int, int)
 		{
 			return (ops[i].f);
 		}
-		i++;
+		++i;
 	}
 	printf("Error\n");
-	exit(98);
+	exit(99);
 	return (0);
 }
