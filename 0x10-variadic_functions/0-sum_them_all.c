@@ -7,14 +7,14 @@
 */
 int sum_them_all(const unsigned int n, ...)
 {
-	int result = 0;
+	unsigned int result = 0;
 	va_list argumens;
 	va_start(argumens, n);
 	
 	if (n == 0)
 		return (0);
 	
-	for (int i = 0; i < n; i++) 
+	for (unsigned int i = 0; i < n; i++) 
 	{
 		result += va_arg(argumens, int);
 	}
