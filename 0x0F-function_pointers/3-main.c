@@ -8,15 +8,20 @@
  */
 int main(int argc, char *argv[])
 {
-	char *operator = argv[2];
-	int a = atoi(argv[1]);
-	int b = atoi(argv[3]);
+	char *operator;
+	int a;
+	int b;
 
 	if (argc != 4)
 	{
 		printf("Error\n");
 		exit(98);
 	}
+	
+	*operator = argv[2];
+	a = atoi(argv[1]);
+	b = atoi(argv[3]);
+	
 	printf("%d\n", get_op_func(operator)(a, b));
 	return (0);
 }
