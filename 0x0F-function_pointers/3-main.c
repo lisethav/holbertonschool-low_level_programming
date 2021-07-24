@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 	
-	*operator = argv[2];
+	operator = argv[2];
 	a = atoi(argv[1]);
 	b = atoi(argv[3]);
 	
