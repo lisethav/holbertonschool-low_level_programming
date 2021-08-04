@@ -1,6 +1,6 @@
 # **0x13. C - More singly linked lists**
-## **Requirements**
-### ✨ General 
+## ✨**Requirements**
+###  General 
 - All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 - Code should use the Betty style. It will be checked using [betty-style.pl] and [betty-doc.pl]
 - No more than 5 functions per file
