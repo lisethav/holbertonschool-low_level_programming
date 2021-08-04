@@ -16,6 +16,7 @@ typedef struct listint_s
 
 /*----Libraries----*/
 #include <stdio.h>
+#include <stdlib.h>
 
 /* -----Prototypes-----*/
 size_t print_listint(const listint_t *h);
