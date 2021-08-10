@@ -27,12 +27,12 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		while (letters > 1024 && read_now != 0)
 		{
 			read_now = read(file_open, buffer, 1024);
-			write(1, buffer, read_now);
+			write(STDOUT_FILENO, buffer, read_now);
 			end_file += read_now;
 			letters -= 1024;
 		}
 			read_now = read(file_open, buffer, letters);
-			write(1, buffer, read_now);
+			write(STDOUT_FILENO, buffer, read_now);
 			end_file += read_now;
 			close(file_open);
 			return (end_file);
