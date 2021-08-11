@@ -1,4 +1,4 @@
-# **# **0x15. C - File I/O****
+# **0x15. C - File I/O****
 File Operations
 In C, you can perform four major operations on files, either text or binary:
 
